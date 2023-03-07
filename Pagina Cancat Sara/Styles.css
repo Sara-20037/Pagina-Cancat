@@ -1,0 +1,73 @@
+body{
+    background: url(./Img/fondo1.jpg);
+    background-size: cover;
+    height: auto;
+}
+
+@font-face {
+    font-family: Holy;
+    src: url(./Tp/Holyfat.ttf);
+}
+
+.Encabezado{
+    background-color: white;
+    border-radius: 17px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-link{
+    font-family: Holy;
+    color: #4cda00;
+    display: flex;
+    justify-content: center !important;
+}
+
+.button{
+    font-family: holy;
+    background-color: #4cda00;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 190px;
+    height: 80px;
+}
+
+a:hover{
+    background-color: #4cda00;
+    transition: 0.5s;
+    color: white !important;
+}
+
+.Tx{
+    background-color: #4cda00;
+    opacity:75%;
+    padding: 15px;
+}
+
+.Tx1{
+    color: white;
+    font-size: 14pt;
+}
+
+.P1{
+    color: #4cda00;
+}
+
+.Be{
+    font-size: 40pt !important;
+    font-family: Holy;
+    color: #4cda00 ;
+}
+
+.P2{
+    font-family: Holy !important;
+    color: #4cda00;
+    padding-inline: 5em;
+    padding-block: 0.1em;
+    display: flex;
+    align-items: center;
+}
+
+
+
